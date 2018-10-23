@@ -20,9 +20,17 @@ void Log(const char *fmt, ...)
 	va_end(ap);
 }
 
+void t()
+{
+	auto i = 1000;
+	Log("i=%d", i);
+}
+
 int main()
 {
 	Log("================= start  ==================\n");
+	t();
+
 	unsigned int i=0;
 	while(1)
 	{
