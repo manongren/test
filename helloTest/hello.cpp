@@ -24,6 +24,7 @@ void t()
 {
 	auto i = 1000;
 	Log("i=%d", i);
+
 }
 
 int main()
